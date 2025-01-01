@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Rust: creating and using dangling pointers. The `bug.rs` file contains code that accesses memory after the owning variable has been dropped, leading to undefined behavior. The solution is to ensure that the memory remains valid for as long as the pointer is used.
